@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <title>Calculate Average</title>
+</head>
+<body>
+    <div class="alert alert-success" role="alert">
+       Login successfull!
+    </div>
+    <div class="jumbotron"> 
+        <h1>Calculate Average!!!</h1>
+    </div>
+    <div class="container" style="padding-left: 2px;">
+        <form>
+            <label style="font-weight: bold;">Input Marks obtained is repective subjects</label>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label >Physics</label>
+                <input type="text" class="form-control" id="s1" placeholder="Physics">
+              </div>
+              <div class="form-group col-md-4">
+                <label >Chemistry</label>
+                <input type="text" class="form-control" id="s2" placeholder="Chemistry">
+              </div>
+              <div class="form-group col-md-4">
+                <label >Maths</label>
+                <input type="text" class="form-control" id="s3" placeholder="Maths">
+              </div>
+            </div> 
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label >English</label>
+                  <input type="text" class="form-control" id="s4" placeholder="English">
+                </div>
+                <div class="form-group col-md-6">
+                  <label >Hindi</label>
+                  <input type="text" class="form-control" id="s5" placeholder="Hindi">
+                </div>
+              </div> 
+            <button type="submit" class="btn btn-primary" onclick="avgcal()">Calculate</button>
+          </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
